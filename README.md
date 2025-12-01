@@ -25,17 +25,6 @@ O pipeline integra três blocos principais:
 
 ---
 
-## Objetivos
-
-- Disponibilizar o código usado na monografia para **reprodutibilidade** dos resultados de segmentação.
-- Documentar o fluxo de **geoprocessamento → índices espectrais → segmentação → validação**.
-- Servir como base para estudos futuros em:
-  - segmentação fuzzy de imagens de queimadas;
-  - otimização quântica de funções de custo de clusterização;
-  - integração entre sensoriamento remoto, fuzzy e algoritmos variacionais quânticos.
-
----
-
 ## Estrutura do repositório
 
 A organização geral é a seguinte:
@@ -63,6 +52,27 @@ A organização geral é a seguinte:
 
 ---
 
+
+## Criadores:
+As funções utilizadas para qualquer manipulação de dados dentro desse diretório assim como os métodos propostos foram criadas pelos estudantes: 
+  - Daniel Bravin Martins, email: daniel23020@ilum.cnpem.br.  
+    Aluno do 6° Semestre do Curso de Bacharel em Ciência e Tecnologia, Ilum - Escola de Ciências.
+  
+  - Karla Rovedo Pascoalini, email: karla23012@ilum.cnpem.br.  
+    Aluna do 6° Semestre do Curso de Bacharel em Ciência e Tecnologia, Ilum - Escola de Ciências.
+    
+
+O projeto passou pela orientação dos pesquisadores/doutores:
+  - Vinicius Francisco Wasques. Email: vinicius.wasques@ilum.cnpem.br 
+    Professor pesquisador da Ilum Escola de Ciências.
+  - Felipe Fernandes Fanchini. Email: felipe.fanchini@unesp.br 
+    Professor pesquisar da UNESP - Rio Claro.
+
+## Agradecimentos:
+Agradecemos pela oportunidade e pelo suporte dos pesquisadores citados acima. Também agradecemos  agradecemos a todos aqueles que de alguma forma ajudaram na concepção de desse projeto.
+
+---
+
 ## Instalação
 
 Recomenda-se usar um ambiente virtual (conda ou `venv`).
@@ -74,7 +84,6 @@ cd quantum-fuzzy-image-segmentation-wildfires
 
 # Criar ambiente (exemplo com venv)
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-
+```bash
 # Instalar dependências
 pip install -r requirements.txt
