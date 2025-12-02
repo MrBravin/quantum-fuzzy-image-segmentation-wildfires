@@ -63,6 +63,10 @@ As funções utilizadas para qualquer manipulação de dados dentro desse diret�
   
   - Karla Rovedo Pascoalini, email: karla23012@ilum.cnpem.br.  
     Aluna do 6° Semestre do Curso de Bacharel em Ciência e Tecnologia, Ilum - Escola de Ciências.
+
+    Com o auxílio dos colaboradores:
+     - Pedro Henrique Kramer Canhim, email: pedro23013@ilum.cnpem.br
+     - Cauê Gomes Correia Dos Santos, email: caue23024@ilum.cnpem.br
     
 
 O projeto passou pela orientação dos pesquisadores/doutores:
