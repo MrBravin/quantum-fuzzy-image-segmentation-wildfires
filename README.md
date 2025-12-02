@@ -13,15 +13,18 @@ O código foi desenvolvido no contexto do Trabalho de Conclusão de Curso:
 
 O objetivo deste projeto é investigar se algoritmos de **segmentação fuzzy** otimizados por **computação quântica** podem melhorar o mapeamento de áreas queimadas em comparação com métodos clássicos.  
 
-O pipeline integra três blocos principais:
+O pipeline integra alguns blocos principais:
 
 1. **Geoprocessamento** de focos de incêndio (INPE, MapBiomas Fogo etc.) e seleção de janelas espaciais em torno dos eventos.
 2. **Processamento espectral** de imagens Sentinel-2 (pré e pós-fogo), com cálculo de índices como **NDVI**, **NBR** e **NBR-SWIR** e suas imagens de diferença.
-3. **Segmentação e validação**, comparando:
+3. **Segmentação**, comparando:
    - K-Means (clássico);
    - Fuzzy C-Means (FCM);
    - Quantum Fast Fuzzy C-Means (QFFCM) otimizado via **QAOA**,
-   avaliados por métricas internas (Dunn, Davies–Bouldin, Calinski–Harabasz) e externas (Dice, IoU, Hausdorff) em relação a máscaras de referência (ground truth).
+
+4. **Geração de mascaras de referência (Ground Truth)** manualemente a partir das imagens dos eventos escolhidos. 
+4. **Avaliação da Qualidade de Segmentação**
+   - Avaliando por métricas internas (Dunn, Davies–Bouldin, Calinski–Harabasz) e externas (Dice, IoU, Hausdorff).
 
 ---
 
