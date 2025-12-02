@@ -72,7 +72,7 @@ O projeto passou pela orientação dos pesquisadores/doutores:
     Professor pesquisar da UNESP - Rio Claro.
 
 ## Agradecimentos:
-Agradecemos pela oportunidade e pelo suporte dos pesquisadores citados acima. Também agradecemos  agradecemos a todos aqueles que de alguma forma ajudaram na concepção de desse projeto.
+Agradecemos pela oportunidade e pelo suporte dos pesquisadores citados acima. Também agradecemos ao INPE, a partir de sua equipe de monitoramento de incêndios do programa queimadas, e a todos aqueles que de alguma forma ajudaram na concepção e construção desse projeto.
 
 ---
 
